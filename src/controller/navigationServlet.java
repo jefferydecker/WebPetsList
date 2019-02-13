@@ -57,7 +57,7 @@ public class navigationServlet extends HttpServlet {
 			 try {
 				 Integer tempId = Integer.parseInt(request.getParameter("id"));
 				 Pet itemToEdit = dao.searchForPetById(tempId);
-				 request.setAttribute("itemToEdit", itemToEdit);
+				 request.setAttribute("petToEdit", itemToEdit);
 				 getServletContext().getRequestDispatcher("/edit-pet.jsp").forward(request, response);
 			 } catch (NumberFormatException e) {
 				 getServletContext().getRequestDispatcher("/viewAllPetsServlet").
