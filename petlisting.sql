@@ -28,7 +28,7 @@ CREATE TABLE `pets` (
   `NAME` varchar(20) NOT NULL,
   `OWNER` varchar(20) NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `pets` (
 
 LOCK TABLES `pets` WRITE;
 /*!40000 ALTER TABLE `pets` DISABLE KEYS */;
-INSERT INTO `pets` VALUES (1,'Dog','Dobby','Mike'),(2,'Cat','Russell','Lori'),(3,'Dog','Daisy','Kylie'),(7,'Fish','Bart','Eric'),(8,'Cat','Rocky','Eric'),(9,'Dog','Kinte','Jeff'),(10,'Snake','Snappy','Piper'),(11,'Cat','Cheyenne','Tyler'),(12,'Cat','Sam','Jeff'),(13,'Mouse','Jerry','Jerry'),(14,'Cat','Tom','Jerry');
+INSERT INTO `pets` VALUES (1,'Dog','Dobby','Mike'),(2,'Cat','Russell','Lori'),(11,'Cat','Cheyenne','Tyler D'),(17,'Dog','Ask\'im','Janis'),(18,'Snake','Snappy','Piper'),(20,'Dog','Phantom','Paul');
 /*!40000 ALTER TABLE `pets` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-01-30 17:42:52
+-- Dump completed on 2019-02-13 11:36:43
