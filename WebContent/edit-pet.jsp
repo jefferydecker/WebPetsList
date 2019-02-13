@@ -5,9 +5,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Edit Pet</title>
 </head>
-<body>
+<body><h3>Edit Pet</h3>
 	<form action = "editPetServlet" method="post">
 		Type: <input type ="text" name = "type" value= "${petToEdit.type}">
 		Name: <input type ="text" name = "name" value= "${petToEdit.name}">
